@@ -9,11 +9,11 @@ define('EXT', '.php');
 define('SITE_PATH', ROOT . DS);
 define('LIB_PATH', ROOT . DS . 'libs' . DS);
 
+$start = microtime(true);
+
 define('DEBUG_MODE', true);
 
 date_default_timezone_set('PRC');
-
-$start = microtime(true);
 
 require_once LIB_PATH . '/app.php';
 
